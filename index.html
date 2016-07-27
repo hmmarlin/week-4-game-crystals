@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- add reset.css here too -->
+</head>
+<body>
+
+<h1>Welcome to Crystal Collector</h1>
+	<div id="instructions">
+		<p>You will be given a random number.</p>
+		<p>There are four crystals at the bottom of the page, each have a specific value assigned to them</p>
+		<p>Clicking on each of the crystals will give you points. If you match the random number exactly with the points, you win. If you go over, you lose. </p>
+		<p>Each time the game starts, the value of the crystals will change</p>
+	</div>
+	<div id="numeros" class="row">
+		<div class="col-md-4" id="randoNumber">
+			 Random Number: 
+	<!-- random number will be generated here -->
+		</div>
+
+		<div class="col-md-4" id="winsloss">
+			<p id="howdid"> &nbsp; </p>
+			<p id="wins">Wins: </p>
+			<p id="loss">Losses: </p>
+		
+		</div>
+
+		<div class="col-md-4">	
+			<!-- empty div -->
+		</div>
+	</div>
+	<div class="row" id ="crystals">
+		<div class="col-md-3" id="Blue">
+			
+		</div>
+
+		<div class="col-md-3" id="Green">
+		
+		</div>
+		<div class="col-md-3" id ="Yellow">
+			
+		</div>
+		<div class="col-md-3" id ="Red">
+			
+		</div>
+
+	</div>
+
+	<div id="infoScore">
+	<p>Your total score is: </p>
+	</div>
+	<div id="yourScore">
+	<!-- your score will be added here -->
+	</div>
+
+	<!-- link to js & jquery scripts here -->
+		<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+		<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+	margin:20px;
+	font-family: "Arial", Georgia, Serif;
+	font-size:20px;
+	background-color: lightgrey;
+}
+
+h1 {
+	font-family: cursive;
+	color: purple;
+	font-size: 50px;
+}
+
+#instructions {
+	background-color: #ffffcc;
+	padding:10px;
+	
+}
+
+#numeros {
+	background-color: #ccffdc;
+	padding:10px;
+	
+}
+
+.row {
+	margin:20px;
+}
+
+img {
+	margin-top:10px;
+	border:1px solid black;
+}
